@@ -7,7 +7,7 @@ To use face or voice recognition and authentication as a verification method whe
 
 ## Basic Features:
 1) POST, GET, and DELETE requests.
-2) Private message section **Under Construction**
+2) Private message section is **Under Construction**
 3) Profile picture upload.
 
 
