@@ -34,7 +34,7 @@ export class  AuthTypeLoginPage extends Component {
 
                     <h3 className='sign-in' > SIGN-IN </h3>
 
-                    <Link style={{ textDecoration: 'none' }} to="/FaceLogin"><div className = 'auth'>Face Authentication </div></Link>
+                    <Link style={{ textDecoration: 'none' }} to="/FaceLogin"><div className = 'auth'> Authentication </div></Link>
                 
                 
                 </div>

@@ -42,7 +42,7 @@ export class FaceLoginPage extends Component {
 
                     <p className = 'login'>Login</p>
 
-                    <form onSubmit={this.onSubmit}>
+                    <form className="loginForm" onSubmit={this.onSubmit}>
                     
                         <input 
                             type="text" 

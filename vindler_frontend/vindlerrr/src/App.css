@@ -24,6 +24,7 @@ html, body {
   display: flex;
   flex-direction: row;
   background-color:palegoldenrod;
+  justify-content: center;
 }
 
 .flex-container > div{
@@ -65,8 +66,9 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
     background-color:darkmagenta;
     position:relative;
-    left:130px;
+    /*left:130px;*/
     top: 70px;
+    margin: 0 auto;
     border-radius: 9px;
 
 
@@ -92,7 +94,6 @@ html, body {
     margin-top: 30px;
     font-family: 'Titillium Web', sans-serif;
     position:relative;
-    left: 500px;
 
 
 }
@@ -115,7 +116,6 @@ html, body {
 
     position:relative;
     margin-top: 30px;
-    left:610px;
     background-color: white;
     width: 100px;
     height: 30px;
@@ -133,14 +133,17 @@ html, body {
     position:relative;
     margin-top: 60px;
     font-family: 'Titillium Web', sans-serif;
-    left: 550px;
+    text-align: center;
 }
 
 .registerFormDiv{
 
     height: 91vh;
-    width: 50%;
-    position:fixed;
+    width: 350px;
+    margin: 0 auto;
+    /*border-color: green;  
+    border-style: solid; for debugging reasons*/
+    text-align: center;
    
 }
 .register{
@@ -148,7 +151,7 @@ html, body {
     position:relative;
     font-size: 30px;
     font-family: 'Titillium Web', sans-serif;
-    left:550px;
+    text-align: center;
     margin-top:60px;
     text-decoration:underline;
     color:darkmagenta;
@@ -164,14 +167,12 @@ html, body {
     margin-top: 30px;
     font-family: 'Titillium Web', sans-serif;
     position:relative;
-    left: 500px;
 }
 
 .loginButton{
 
     position:relative;
     margin-top: 30px;
-    left:610px;
     background-color: white;
     width: 100px;
     height: 30px;
@@ -184,30 +185,38 @@ html, body {
 
 }
 
+
 .LinkToRegister{
     color: gray;
     position:relative;
     margin-top: 60px;
     font-family: 'Titillium Web', sans-serif;
-    left: 595px;
+    text-align: center;
 }
 
 .loginFormDiv{
 
     height: 91vh;
-    width: 50%;
-    position:fixed;
+    width: 350px;
+    margin: 0 auto;
+    /*border-color: green;  
+    border-style: solid; for debugging reasons*/
+    text-align: center;
+    
    
 }
+
+
+
 .login{
 
     position:relative;
     font-size: 30px;
     font-family: 'Titillium Web', sans-serif;
-    left:630px;
     margin-top:60px;
     text-decoration:underline;
     color:darkmagenta;
+    text-align: center
 }
 
 /*------------------------------------------------------------------------------------ (HEADER) NAV BAR Section -----------------------------------------------------------------*/
@@ -369,7 +378,7 @@ li.l_1 a:hover{
     display:none;
 }
 
-/*------------------------------------------------------------------------------------ HOME Section -----------------------------------------------------------------*/
+/*--------------------------------------------------- HOME Section -----------------------------------------------------------------*/
 #profilepicture{
     border-radius: 50%;
     float: left;

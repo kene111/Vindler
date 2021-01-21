@@ -56,8 +56,8 @@ html, body {
       color: #ffebcd;
       font-family: 'Titillium Web', sans-serif;
       background-color:darkmagenta;
-      position:relative;
-      left:5px;
+      /*position:relative;
+      left:5px;*/
       top: 70px;
       border-radius: 9px;
   
@@ -75,6 +75,7 @@ html, body {
   }
 
 /* ------------------------------------------------------------------------------LOGIN---------------------------------------------------------------------------*/
+/*
 .login_input{
     color:gray;
     border-radius: 9px;
@@ -112,6 +113,7 @@ html, body {
     left: 295px;
 }
 
+
 .loginFormDiv{
 
     height:91vh;
@@ -120,8 +122,6 @@ html, body {
     left: 1px;
     top:1px;
     margin: 0 auto;
-    /*border-color: green; /* for debugging reasons
-    border-style: solid;*/
    
 }
 .login{
@@ -134,22 +134,9 @@ html, body {
     text-decoration:underline;
     color:darkmagenta;
 }
-
+*/
 /*-----------------------------------------------------------------Register Page--------------------------------------------------------------------*/
 
-.register_input{
-    color:gray;
-    border-radius: 9px;
-    border-color: #ffebcd;
-    width: 300px;
-    height: 23px;
-    margin-top: 30px;
-    font-family: 'Titillium Web', sans-serif;
-    position:relative;
-    left:200px;
-
-
-}
 /*
 .recognition_div{
     
@@ -164,6 +151,22 @@ html, body {
 
 
 } */
+
+/*
+.register_input{
+    color:gray;
+    border-radius: 9px;
+    border-color: #ffebcd;
+    width: 300px;
+    height: 23px;
+    margin-top: 30px;
+    font-family: 'Titillium Web', sans-serif;
+    position:relative;
+    left:200px;
+
+
+}
+
 
 .registerButton{
 
@@ -212,65 +215,7 @@ html, body {
     color:darkmagenta;
 }
 
-/* ------------------------------------------------------------------------------LOGIN---------------------------------------------------------------------------*/
-.login_input{
-    color:gray;
-    border-radius: 9px;
-    border-color: #ffebcd;
-    width: 300px;
-    height: 23px;
-    margin-top: 30px;
-    font-family: 'Titillium Web', sans-serif;
-    position:relative;
-    left: 200px;
-}
-
-.loginButton{
-
-    position:relative;
-    margin-top: 30px;
-    left:310px;
-    background-color: white;
-    width: 100px;
-    height: 30px;
-    border:white;
-    color: gray;
-    font-family: 'Titillium Web', sans-serif;
-    border-color: purple;
-    border-style: solid;
-    border-radius: 15px;
-
-}
-
-.LinkToRegister{
-    color: gray;
-    position:relative;
-    margin-top: 160px;
-    font-family: 'Titillium Web', sans-serif;
-    left: 300px;
-}
- 
-.loginFormDiv{
-
-    height: 91vh;
-    width: 95%;
-    position: fixed;
-    left: 1px;
-    margin: 0 auto;
-   /* border-color: green;  for debugging reasons
-    border-style: solid;*/
-   
-}
-.login{
-
-    position:relative;
-    font-size: 30px;
-    font-family: 'Titillium Web', sans-serif;
-    left:330px;
-    margin-top:60px;
-    text-decoration:underline;
-    color:darkmagenta;
-}
+*/
 
 /*------------------------------------------------------------------------------------ (HEADER) NAV BAR Section -----------------------------------------------------------------*/
 

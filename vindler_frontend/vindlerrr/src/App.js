@@ -27,7 +27,9 @@ if (window.innerWidth <= 600) {
 if (window.innerWidth >= 601 && window.innerWidth <= 900 ) {
   import('./mediumScreen.css');
 }
-
+if (window.innerWidth > 1300 ) {
+  import('./largeScreen.css');
+}
 
 //alert options 
  
