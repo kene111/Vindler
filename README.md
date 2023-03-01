@@ -25,9 +25,11 @@ Redis.
 
 
 ## Issues:
-1) Frontend: Media responsiveness.
+Frontend: 
+  Media responsiveness.
+  Rendering Issue
 
 #### Best viewed with a system.
 
 Link to current version of [vindler](https://vindler.netlify.app/#/Login).
-### Note: currently using normal authentication method, ML authentication screens are yet to be added.
+#### Note: currently using normal authentication method, ML authentication screens are yet to be added.
