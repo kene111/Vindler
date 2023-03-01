@@ -1,7 +1,5 @@
 # Vindler(onHold)
 
-### Note: THIS IS AN ONGOING PROJECT.
-
 ## Aim:
 To use face or voice recognition and authentication as a verification method when accessing an auth based platform, in this use case a basic social platform - vindler.
 
@@ -28,8 +26,8 @@ Redis.
 
 ## Issues:
 1) Frontend: Media responsiveness.
-2) Machine learning: Accepting new targets during online learning.
 
 #### Best viewed with a system.
 
 Link to current version of [vindler](https://vindler.netlify.app/#/Login).
+### Note: currently using normal authentication method, ML authentication screens are yet to be added.
